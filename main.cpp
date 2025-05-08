@@ -41,8 +41,20 @@ void printArr(int* p_arr){
     }
 }
 
+void getArrFromUser(int arr[5]){
+    std::cout << "enter a 5 element array: \n";
+    for(int i{0};i < 5;){
+        std::cin >> arr[i];
+        i++;
+    }
+
+    return;
+}
+
+
 int main(){
-    int arr[5] = {5,4,9,7,8};
+    int arr[5] = {};
+    getArrFromUser(arr);
     arrSort(arr);
     printArr(arr);
     
