@@ -68,11 +68,6 @@ int main(){
     getArrFromUser(arr,size);
     arrSort(arr,size);
     printArr(arr,size);
-    
-
-    
-
-
 
 
     return 0;
